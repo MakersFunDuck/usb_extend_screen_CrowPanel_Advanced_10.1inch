@@ -1,0 +1,17 @@
+{
+  "idf.currentSetup": "C:\\esp\\v5.4.4\\esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32p4-bridge.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32p4"
+  },
+  "clangd.path": "C:\\Espressif\\tools\\esp-clangd\\esp-21.1.3_20260408\\esp-clangd\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\esp\\esp-iot-solution\\examples\\usb\\device\\usb_extend_screen\\build"
+  ],
+  "idf.flashType": "UART",
+  "idf.portWin": "COM5"
+}

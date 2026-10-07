@@ -1,0 +1,5 @@
+board: elecrow_crowpanel_advanced_10_1
+chip: esp32p4
+version: 1.0.0
+description: "Elecrow CrowPanel Advanced 10.1 inch ESP32-P4"
+manufacturer: "ELECROW"

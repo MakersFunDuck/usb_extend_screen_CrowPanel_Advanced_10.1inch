@@ -1,0 +1,40 @@
+peripherals:
+
+  # GT911 touch controller
+  - name: i2c_master
+    type: i2c
+    role: master
+    config:
+      port: 0
+      pins:
+        sda: 45
+        scl: 46
+
+  # ESP32-P4 MIPI DSI PHY power
+  - name: ldo_mipi
+    type: ldo
+    config:
+      chan_id: 3
+      voltage_mv: 2500
+      adjustable: 1
+      owned_by_hw: 0
+
+  # CrowPanel MIPI DSI interface
+  - name: dsi_display
+    type: dsi
+    config:
+      bus_id: 0
+      data_lanes: 2
+      phy_clk_src: 0
+      lane_bit_rate_mbps: 900
+
+  # LCD backlight
+  - name: ledc_backlight
+    type: ledc
+    version: default
+    config:
+      gpio_num: 31
+      speed_mode: LEDC_LOW_SPEED_MODE
+      channel: 0
+      timer_sel: 0
+      duty: 0
