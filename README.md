@@ -43,7 +43,7 @@ See the [Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/l
 
 ### PC Side
 
-For preparation, refer to [windows_driver](./windows_driver/README_cn.md).
+For preparation, refer to [windows_driver](./windows_driver/README.md).
 
 ![Demo](https://dl.espressif.com/AE/esp-iot-solution/p4_usb_extern_screen.gif)
 
