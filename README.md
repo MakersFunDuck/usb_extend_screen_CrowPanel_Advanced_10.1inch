@@ -4,21 +4,21 @@ Use [Crowpanel 10.1 inch esp32=p4 panel](https://www.elecrow.com/crowpanel-advan
 
 This is the modified version of https://github.com/espressif/esp-iot-solution/tree/master/examples/usb/device/usb_extend_screen for  CrowPanel Advanced 10.1inch |ESP32-P4 HMI AI Display 1024x600 IPS Touch Screen
 
-The USB extended display example turns a compatible ESP32-P4 board into a secondary display for Windows. Board peripherals are described and initialized by [ESP Board Manager](https://github.com/espressif/esp-board-manager), so the application is not tied to a specific BSP.
+The USB extended display example turns a compatible ESP32-P4 board into a secondary display for Windows. 
 
 
 The example supports the following features:
 
-* **P4**: Supports a screen refresh rate of **1024×600@60FPS**.
+* **esp32-p4**: Supports a screen refresh rate of **1024×600@60FPS**.
 
 * Supports up to **five-point touch input**.
 * Supports **audio input and output**.
 
 ## Required Hardware
 
-### P4 Development Board
+### Crowpanel 10.1 inch Development Board
 
-1. [ESP32-P4-Function-EV-Board](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32p4/esp32-p4-function-ev-board/user_guide.html#getting-started) development board.
+1. Use [Crowpanel 10.1 inch esp32=p4 panel](https://www.elecrow.com/crowpanel-advanced-10-1inch-esp32-p4-hmi-ai-display-1024x600-ips-touch-screen-wifi-6.html) development board.
 2. A **1024×600** MIPI display from the development kit.
 3. A speaker.
 
