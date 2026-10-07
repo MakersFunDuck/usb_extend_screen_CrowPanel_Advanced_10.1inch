@@ -12,7 +12,6 @@ The example supports the following features:
 * **esp32-p4**: Supports a screen refresh rate of **1024×600@60FPS**.
 
 * Supports up to **five-point touch input**.
-* Supports **audio input and output**.
 
 ## Required Hardware
 
